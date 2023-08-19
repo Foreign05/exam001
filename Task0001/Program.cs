@@ -13,12 +13,17 @@ class Program
 
         foreach (string element in elements) //printing whole massive
         {
-        
-           if (element.Length <= 3) //condition that gives access to use elements just less than 4 symbols
+            
+            for (int e = 0; e < size; e++)
             {
-                Console.Write(element + " "); //simple print
+                if (element.Length <= 3)
+                {
+                    Console.Write(element + " "); //simple print
+                }
+                {
+                    break; //it helps to stop comparing
+                }
             }
-
         }
     }
 }
