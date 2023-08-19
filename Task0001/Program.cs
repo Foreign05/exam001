@@ -18,7 +18,7 @@ class Program
             {
                 Console.Write(element + " "); //simple print
             }
-        
+
         }
     }
 }
