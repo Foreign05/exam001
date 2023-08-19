@@ -14,7 +14,10 @@ class Program
         foreach (string element in elements) //printing whole massive
         {
         
-           Console.Write(element + " "); //simple print
+           if (element.Length <= 3) //condition that gives access to use elements just less than 4 symbols
+            {
+                Console.Write(element + " "); //simple print
+            }
         
         }
     }
