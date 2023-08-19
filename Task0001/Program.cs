@@ -3,7 +3,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Enter the elements of the array: ");
+        Console.WriteLine("Enter the elements of the array: (separate them by space, pls)");
         string input = Console.ReadLine(); //get input 
         string[] elements = input.Split(' '); //store input values separated in massive 
 
